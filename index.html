@@ -27,8 +27,8 @@
       <div class="container">
         <div class="header-list">
           <div>
-            <a class="web" href="webstudio" target="_blank">WEB</a>
-            <a class="studio" href="webstudio" target="_blank">STUDİO</a>
+            <a class="web" href="#webstudio" target="_blank">WEB</a>
+            <a class="studio" href="#webstudio" target="_blank">STUDİO</a>
           </div>
 
           <nav>
@@ -65,7 +65,6 @@
 
     <main>
       <section class="section-1">
-        <div class="section-1-background-image">
           <div class="section">
             <div class="container">
               <h1>
@@ -77,9 +76,28 @@
               <button class="section-1-button" type="button">
                 Order Service
               </button>
+
+              <div class="menu-form">
+                <form>
+                  <h1 class="form-title">Leave your contacts and we will call you back</h1>
+
+                  <div class="menu-information">
+                    <label class="label" for="name">Name</label>
+                    <input type="text" class="information-personal" id="name">
+  
+                    <label class="label" for="tel">Phone</label>
+                    <input type="tel" class="information-personal" id="tel">
+  
+                    <label class="label" for="email">E-mail</label>
+                    <input type="email" class="information-personal" id="email">
+  
+                    <label class="label" for="comment">Comment</label>
+                    <textarea placeholder="Text input" class="information-comment" id="comment"></textarea>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
-        </div>
       </section>
 
       <section>
@@ -555,11 +573,12 @@
           <form action="#" method="post">
             <div class="footer-form">
               <label for="e-mail" class="subscribe-text">Subscribe</label>
+
               <div class="footer-information">
                 <input
                   type="email"
                   placeholder="E-mail"
-                  class="email"
+                  class="footer-email"
                   id="e-mail"
                 />
                 <input
