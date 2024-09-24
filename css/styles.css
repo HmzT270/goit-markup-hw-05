@@ -193,6 +193,83 @@ header li {
   background-color: #404bbf;
 }
 
+.menu-form {
+  width: 408px;
+  height: 584px;
+  border: none;
+  border-radius: 4px;
+  background-color: #FCFCFC;
+  padding-top: 70px;
+}
+
+.form-title {
+  width: 360px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #2E2F42;
+  text-align: end;
+  padding-bottom: 50px;
+}
+
+.menu-information {
+  width: 360px;
+  height: 336px;
+  margin: 0 auto;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 4%;
+  color: #8E8F99;
+  display: block;
+  text-align: left;
+}
+
+.information-personal {
+  width: 360px;
+  height: 40px;
+  font-size: 12px;
+  border: 1px, solid, NAVY BLUE modal;
+  border-radius: 4px;
+  outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color;
+}
+
+.information-personal:focus {
+  border-color: #4D5AE5;
+}
+
+.information-comment{
+  width: 360px;
+
+  font-size: 12px;
+  border: 1px, solid, NAVY BLUE modal;
+  border-radius: 4px;
+  outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color;
+}
+
+.information-comment:focus {
+  border-color: #4D5AE5;
+}
+
+.information-comment::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 4%;
+  color: #2E2F4266;
+}
+
 .section-2-div {
   color: #2e2f42;
   display: flex;
@@ -465,7 +542,7 @@ footer p {
   margin-top: 22px;
 }
 
-.email {
+.footer-email {
   width: 264px;
   height: 40px;
   color: white;
@@ -474,8 +551,16 @@ footer p {
   border-radius: 4px;
 }
 
+.footer-email::placeholder{
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 4%;
+}
+
 .subscribe-button {
-  width: 185px;
+  width: 165px;
   height: 40px;
   font-weight: 500;
   font-size: 16px;
@@ -491,6 +576,6 @@ footer p {
 
 .icon-frame {
   position: relative;
-  left: 415px;
+  left: 400px;
   bottom: 32px;
 }
