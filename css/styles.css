@@ -201,6 +201,25 @@ header li {
   background-color: #fcfcfc;
   padding-top: 50px;
   margin: 0 auto;
+  position: relative;
+}
+
+.x-button-icon {
+  border: 1px, solid, #0000001a;
+  border-radius: 100%;
+  cursor: pointer;
+  position: absolute;
+  left: 360px;
+  top: 10px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color1), var(--color2), var(--color3);
+}
+
+.x-button-icon:hover {
+  --color1: #404bbf;
+  --color2: #404bbf;
+  --color3: #ffffff;
 }
 
 .form-title {
@@ -323,6 +342,8 @@ header li {
 }
 
 .information-comment::placeholder {
+  width: 57px;
+  height: 14px;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -343,7 +364,14 @@ header li {
   bottom: 10px;
 }
 
+.click-icon {
+  position: absolute;
+  left: 11px;
+  top: 27px;
+}
+
 .checkbox-text {
+  width: 338px;
   height: 16px;
   font-weight: 400;
   font-size: 12px;
@@ -356,10 +384,6 @@ header li {
 }
 
 .blue-text {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 4%;
   color: #4d5ae5;
   text-decoration: underline;
 }
@@ -521,10 +545,6 @@ header li {
 
 .section-4-hover {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   opacity: 0;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -664,14 +684,15 @@ footer p {
 .footer-email {
   width: 264px;
   height: 40px;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 12px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 4%;
   color: white;
   background-color: transparent;
   border: 1px, solid, white;
   border-radius: 4px;
+  padding-left: 12px;
   position: relative;
   top: 20px;
 }
@@ -681,6 +702,8 @@ footer p {
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 4%;
+  width: 36px;
+  height: 24px;
   color: white;
 }
 
