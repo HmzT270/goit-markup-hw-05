@@ -213,7 +213,8 @@ header li {
   top: 10px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--color1), var(--color2), var(--color3);
+  transition-property: var(--color1, #404bbf), var(--color2, #404bbf),
+    var(--color3, #ffffff);
 }
 
 .x-button-icon:hover {
@@ -359,15 +360,26 @@ header li {
 .menu-checkbox {
   width: 16px;
   height: 16px;
-  position: relative;
-  right: 15px;
-  bottom: 10px;
+  position: absolute;
+  left: 2px;
+  top: 29px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px, solid #2e2f4266;
+  border-radius: 2px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+}
+
+.menu-checkbox:checked {
+  background-color: #404bbf;
 }
 
 .click-icon {
-  position: absolute;
-  left: 11px;
-  top: 27px;
+  position: relative;
+  right: 10px;
 }
 
 .checkbox-text {
@@ -378,9 +390,9 @@ header li {
   line-height: 14px;
   letter-spacing: 4%;
   color: #757575;
-  position: relative;
-  bottom: 13px;
-  right: 20px;
+  position: absolute;
+  top: 30px;
+  right: 25px;
 }
 
 .blue-text {
@@ -401,6 +413,7 @@ header li {
   border: none;
   border-radius: 4px;
   position: relative;
+  top: 60px;
   box-shadow: 0px 4px 4px 0px #00000026;
 }
 
