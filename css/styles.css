@@ -586,7 +586,7 @@ header li {
   transition-property: opacity;
 }
 
-.section-4-hover:hover {
+.section-4-our-portfolio li:hover .section-4-hover {
   opacity: 1;
 }
 
