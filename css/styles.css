@@ -193,7 +193,7 @@ header li {
   background-color: #404bbf;
 }
 
-.menu-form {
+.modal {
   width: 408px;
   height: 584px;
   border: none;
@@ -231,11 +231,11 @@ header li {
   line-height: 24px;
   letter-spacing: 2%;
   color: #2e2f42;
-  text-align: end;
+  text-align: center;
   position: relative;
 }
 
-.menu-information {
+.menu-form {
   width: 360px;
   height: 336px;
   margin: 0 auto;
@@ -268,7 +268,7 @@ header li {
   top: 30px;
 }
 
-.modal {
+.menu-information {
   width: 360px;
   height: 336px;
 }
@@ -368,6 +368,7 @@ header li {
   -moz-appearance: none;
   border: 1px, solid #2e2f4266;
   border-radius: 2px;
+  cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background-color;
@@ -380,6 +381,7 @@ header li {
 .click-icon {
   position: relative;
   right: 10px;
+  cursor: pointer;
 }
 
 .checkbox-text {
@@ -583,6 +585,7 @@ header li {
 
 .section-4-lists {
   position: relative;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   transition-duration: 250ms;
@@ -691,7 +694,7 @@ footer p {
   line-height: 24px;
   letter-spacing: 2%;
   color: white;
-  display: block;
+  display: inline;
 }
 
 .footer-email {
@@ -744,4 +747,5 @@ footer p {
   position: relative;
   top: 28px;
   right: 50px;
+  cursor: pointer;
 }
