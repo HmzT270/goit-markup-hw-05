@@ -21,10 +21,6 @@ ul {
   list-style: none;
 }
 
-:root {
-  --color-icon-footer: #31d0aa;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
