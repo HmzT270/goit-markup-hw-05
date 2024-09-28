@@ -21,6 +21,10 @@ ul {
   list-style: none;
 }
 
+:root {
+  --color-icon-footer: #31d0aa;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
@@ -294,13 +298,14 @@ header li {
 }
 
 .section-3-icon {
+  fill: #4d5ae5;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--color3);
+  transition-property: fill;
 }
 
 .section-3-icon:hover {
-  --color3: #404bbf;
+  fill: #404bbf;
 }
 
 .section-4 {
@@ -435,13 +440,14 @@ footer p {
 }
 
 .footer-icon {
+  fill: #4d5ae5;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--color3);
+  transition-property: fill;
 }
 
 .footer-icon:hover {
-  --color3: #31d0aa;
+  fill: #31d0aa;
 }
 
 .footer-form {
@@ -527,9 +533,12 @@ footer p {
   background-color: #fcfcfc;
   margin: 0 auto;
   padding-top: 10px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .x-button-icon {
+  fill: #e7e9fc;
   border: 1px, solid, #0000001a;
   border-radius: 100%;
   cursor: pointer;
@@ -538,13 +547,11 @@ footer p {
   top: 10px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--color1, #404bbf), var(--color2, #404bbf),
-    var(--color3, #ffffff);
+  transition-property: fill;
 }
 
 .x-button-icon:hover {
-  --color1: #404bbf;
-  --color2: #404bbf;
+  fill: #404bbf;
   --color3: #ffffff;
 }
 
@@ -750,6 +757,7 @@ footer p {
 }
 
 .information-icons {
+  fill: #2e2f42;
   position: absolute;
   left: 10px;
   top: 22px;
@@ -759,5 +767,5 @@ footer p {
 }
 
 .information-personal:focus + .information-icons {
-  --color1: #4d5ae5;
+  fill: #4d5ae5;
 }
