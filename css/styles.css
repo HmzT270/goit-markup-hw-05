@@ -199,18 +199,15 @@ header li {
   border: none;
   border-radius: 4px;
   background-color: #fcfcfc;
-  padding-top: 50px;
   margin: 0 auto;
-  position: relative;
 }
 
 .x-button-icon {
   border: 1px, solid, #0000001a;
   border-radius: 100%;
   cursor: pointer;
-  position: absolute;
-  left: 360px;
-  top: 10px;
+  position: relative;
+  left: 160px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: var(--color1, #404bbf), var(--color2, #404bbf),
@@ -232,7 +229,6 @@ header li {
   letter-spacing: 2%;
   color: #2e2f42;
   text-align: center;
-  position: relative;
 }
 
 .menu-form {
