@@ -543,7 +543,7 @@ footer p {
   top: 10px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: fill;
+  transition-property: fill, var(--color2), var(--color3);
 }
 
 .x-button-icon:hover {
