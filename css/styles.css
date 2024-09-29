@@ -548,6 +548,7 @@ footer p {
 
 .x-button-icon:hover {
   fill: #404bbf;
+  --color2: #404BBF;
   --color3: #ffffff;
 }
 
