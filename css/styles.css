@@ -194,37 +194,6 @@ header li {
   background-color: #404bbf;
 }
 
-.section-2-div {
-  color: #2e2f42;
-  display: flex;
-  gap: 30px;
-}
-
-.section-2-div li {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 2%;
-}
-
-.section-2-div p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
-  color: #434455;
-}
-
-.section-2-text {
-  width: 264px;
-  height: 72px;
-}
-
-.section-2-title {
-  width: 264px;
-  height: 24px;
-}
-
 .section-2-icon-backgrounds {
   display: flex;
   gap: 30px;
@@ -234,6 +203,37 @@ header li {
   margin-bottom: 10px;
   border: 1px, solid #8e8f99;
   border-radius: 2%;
+}
+
+.section-2-general {
+  color: #2e2f42;
+  display: flex;
+  gap: 30px;
+}
+
+.section-2-general li {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+.section-2-general p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.section-2-title {
+  width: 264px;
+  height: 24px;
+}
+
+.section-2-text {
+  width: 264px;
+  height: 72px;
 }
 
 .section-3 {
@@ -246,16 +246,16 @@ header li {
   height: 732px;
 }
 
-.section-3-div {
-  display: flex;
-  gap: 32px;
-}
-
 .our-team {
   text-align: center;
 }
 
-.section-3 li {
+.section-3-general {
+  display: flex;
+  gap: 32px;
+}
+
+.team-cards {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -276,7 +276,7 @@ header li {
   border-radius: 0px 0px 4px 4px;
 }
 
-.section-3 p {
+.section-3-background p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -313,7 +313,7 @@ header li {
   color: #2e2f42;
 }
 
-.section-4-our-portfolio-text {
+.our-portfolio-text {
   text-align: center;
 }
 
@@ -337,19 +337,19 @@ header li {
   box-shadow: 2px 2px 0px 0px #2e2f4214;
 }
 
-.section-4-images {
-  display: flex;
-}
-
 .section-4-hover {
   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   opacity: 0;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: opacity;
 }
 
-.section-4-our-portfolio li:hover .section-4-hover {
+.section-4-hover:hover {
   opacity: 1;
 }
 
@@ -397,19 +397,8 @@ footer {
   display: flex;
 }
 
-.flex {
+.footer {
   display: flex;
-}
-
-.social-media-webside {
-  width: 208px;
-  height: 80px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
-  color: #ffffff;
-  margin: 0 auto;
 }
 
 footer a {
@@ -427,6 +416,17 @@ footer p {
   line-height: 24px;
   letter-spacing: 2%;
   color: #f4f4fd;
+}
+
+.social-media-webside {
+  width: 208px;
+  height: 80px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #ffffff;
+  margin: 0 auto;
 }
 
 .social-media-icon-webside {
@@ -704,7 +704,7 @@ footer p {
   fill: #4d5ae5;
 }
 
-.footer-form {
+.modal-window-footer-container {
   width: 453px;
   height: 80px;
 }
@@ -716,6 +716,10 @@ footer p {
   letter-spacing: 2%;
   color: white;
   display: inline;
+}
+
+.footer-form {
+  display: flex;
 }
 
 .footer-email {
@@ -764,7 +768,7 @@ footer p {
   left: 10px;
 }
 
-.icon-frame {
+.icon-paper-plane {
   position: relative;
   top: 28px;
   right: 50px;
