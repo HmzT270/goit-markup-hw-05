@@ -451,7 +451,8 @@ footer p {
   height: 100%;
   position: fixed;
   left: 0;
-  top: 20%;
+  top: 0;
+  background-color: rgba(46, 47, 66, 0.4);
 }
 
 .modal-window {
@@ -460,8 +461,9 @@ footer p {
   border: none;
   border-radius: 4px;
   background-color: #fcfcfc;
-  margin: 0 auto;
-  padding-top: 10px;
+  position: absolute;
+  top: 20%;
+  left: 39.4%;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
