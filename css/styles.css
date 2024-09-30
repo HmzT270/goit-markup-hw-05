@@ -24,6 +24,7 @@ ul {
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
+  overflow: hidden;
 }
 
 .container {
