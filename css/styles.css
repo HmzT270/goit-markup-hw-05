@@ -24,7 +24,6 @@ ul {
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
-  overflow: hidden;
 }
 
 .container {
@@ -697,7 +696,7 @@ footer p {
   top: 22px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--color1);
+  transition-property: fill;
 }
 
 .information-personal:focus + .information-icons {
@@ -715,7 +714,6 @@ footer p {
   line-height: 24px;
   letter-spacing: 2%;
   color: white;
-  display: inline;
 }
 
 .footer-form {
